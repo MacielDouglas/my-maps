@@ -10,13 +10,13 @@ export function MenuHeader() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="flex">
+    <div className="flex ">
       <Button variant="ghost" size="icon-lg" onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? <X /> : <TextAlignEnd />}
       </Button>
 
       {isOpen && (
-        <div className="absolute top-0 right-0 h-screen w-screen bg-orange-400 text-black  flex flex-col gap-5 p-10">
+        <div className="absolute mx-auto top-0 right-0 h-screen w-screen bg-orange-400 text-black  flex flex-col gap-5 p-10">
           <h2 className="text-3xl uppercase font-title tracking-widest font-bold mb-10">
             Direcciones
           </h2>

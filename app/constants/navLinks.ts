@@ -28,7 +28,7 @@ export const navLinks: LinkItem[] = [
   },
   {
     name: "Direcciones",
-    href: "/",
+    href: "/direcciones",
     icon: MapPinned,
   },
   {
